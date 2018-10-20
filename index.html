@@ -3,9 +3,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <body>
 
-<div data-ng-app="" data-ng-init="firstName='John'">
-  <p>The name is <span data-ng-bind="firstName"></span></p>
-</div>
+<div data-ng-app="">
+  <p>My first expression: {{ 5 + 5 }}</p>
 
+  <p>Name: <input type="text" data-ng-model="name"></p>
+  <p>{{name}}</p>
+</div>
+  
 </body>
 </html>
